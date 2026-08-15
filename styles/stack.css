@@ -1,0 +1,91 @@
+/* ===== STACK ===== */
+.stack-marquee-wrap {
+  margin-top: 44px;
+}
+
+.stack-marquee {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 12px 0;
+  margin: -12px 0;
+  mask-image: linear-gradient(
+    90deg,
+    transparent 0,
+    #000 64px,
+    #000 calc(100% - 64px),
+    transparent 100%
+  );
+}
+
+.stack-marquee-track {
+  display: flex;
+  width: max-content;
+  gap: 14px;
+  animation: stack-marquee-scroll 32s linear infinite;
+}
+
+.stack-marquee:hover .stack-marquee-track {
+  animation-play-state: paused;
+}
+
+.stack-marquee-static .stack-marquee-track {
+  animation: none;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@keyframes stack-marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.stack-tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-shrink: 0;
+  padding: 22px 28px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-align: center;
+  white-space: nowrap;
+  transition: border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.stack-tile-icon {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .stack-tile:hover {
+    border-color: var(--accent);
+    color: var(--accent-strong);
+    box-shadow: 0 12px 24px var(--shadow-color);
+    transform: translateY(-4px) scale(1.03);
+  }
+}
+
+@media (max-width: 720px) {
+  .stack-tile {
+    padding: 18px 20px;
+  }
+
+  .stack-tile-icon {
+    width: 18px;
+    height: 18px;
+  }
+}
