@@ -47,14 +47,14 @@ const PROJECT_META: Omit<Project, "name" | "description">[] = [
   },
   {
     tags: ["Flutter", "BLoC", "Clean Architecture"],
-    link: "https://heyfuxi.com",
+    link: "https://indir.heyfuxi.com",
     github: "https://github.com/atakaneryldz/fuxi_app_open",
     size: "md",
     icon: "/images/launcher_fuxi.png",
   },
   {
     tags: ["Flutter", "BLoC", "Firebase"],
-    link: "https://kiraala.com",
+    link: "https://onelink.to/kiraala.app",
     size: "md",
     icon: "/images/launcher_kiraala.png",
   },
