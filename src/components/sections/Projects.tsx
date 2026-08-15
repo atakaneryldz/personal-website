@@ -56,13 +56,13 @@ const PROJECT_META: Omit<Project, "name" | "description">[] = [
     tags: ["Flutter", "BLoC", "Firebase"],
     link: "https://onelink.to/kiraala.app",
     icon: "/images/launcher_kiraala.png",
-    cover: "/images/project_fuxi.png",
+    cover: "/images/project_kiraala.png",
   },
   {
     tags: ["Flutter", "Next.js", "BLoC", "Maps"],
     link: "https://bulcar.app",
     icon: "/images/launcher_bulcar.png",
-    cover: "/images/project_fuxi.png",
+    cover: "/images/project_bulcar.png",
   },
   {
     tags: ["Flutter", "BLoC", "Clean Architecture"],
