@@ -84,7 +84,9 @@ export default function Services() {
                 </div>
                 <h3 className="service-card-title">{service.title}</h3>
                 <p className="service-card-description">{service.description}</p>
-                <p className="service-card-detail">{service.detail}</p>
+                <p className="service-card-detail">
+                  <span>{service.detail}</span>
+                </p>
               </motion.div>
             );
           })}

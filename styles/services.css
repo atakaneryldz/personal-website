@@ -1,28 +1,28 @@
 /* ===== SERVICES ===== */
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 18px;
-  margin-top: 48px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  margin-top: 56px;
 }
 
 .service-card {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 14px;
-  padding: 26px 22px;
-  border-radius: 20px;
+  gap: 18px;
+  padding: 40px 36px;
+  border-radius: 24px;
   border: 1px solid var(--border);
   background: var(--bg-elevated);
   overflow: hidden;
-  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
 }
 
 @media (hover: hover) and (pointer: fine) {
   .service-card:hover {
     border-color: var(--accent);
-    box-shadow: 0 20px 40px var(--shadow-color);
+    box-shadow: 0 24px 48px var(--shadow-color);
   }
 
   .service-card:hover .service-card-icon {
@@ -39,43 +39,43 @@
 
 .service-card-index {
   position: absolute;
-  top: 18px;
-  right: 22px;
+  top: 28px;
+  right: 32px;
   font-family: var(--font-mono);
   font-size: 13px;
   font-weight: 500;
   color: var(--text-tertiary);
-  opacity: 0.5;
+  opacity: 0.45;
 }
 
 .service-card-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 12px;
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
   background: var(--accent-soft);
   color: var(--accent-strong);
   transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
 
 .service-card-title {
-  font-size: 17px;
+  font-size: 20px;
   color: var(--text-primary);
 }
 
 .service-card-description {
-  font-size: 14px;
-  line-height: 1.65;
+  font-size: 15px;
+  line-height: 1.7;
   color: var(--text-secondary);
+  max-width: 42ch;
 }
 
 .service-card-detail {
   display: grid;
   grid-template-rows: 0fr;
   opacity: 0;
-  margin-top: 2px;
   font-family: var(--font-mono);
   font-size: 12px;
   line-height: 1.6;
@@ -84,14 +84,31 @@
   overflow: hidden;
 }
 
+.service-card-detail > span {
+  display: block;
+  padding-top: 18px;
+  margin-top: 4px;
+  border-top: 1px solid var(--border);
+  min-height: 0;
+}
+
 @media (max-width: 1000px) {
   .services-grid {
-    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+  }
+
+  .service-card {
+    padding: 32px 28px;
   }
 }
 
 @media (max-width: 560px) {
   .services-grid {
     grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .service-card {
+    padding: 28px 24px;
   }
 }

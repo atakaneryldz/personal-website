@@ -12,158 +12,172 @@ const dictionary: Dictionary = {
     openMenu: "Menü öffnen",
     closeMenu: "Menü schließen",
   },
+
   hero: {
     badge: "Verfügbar für Freelance-Projekte",
     headingWords: ["Hi", "👋,", "ich", "bin", "Atakan."],
     role: "Senior Full-Stack-Entwickler",
     description:
-      "7 Jahre Erfahrung in der End-to-End-Entwicklung mobiler und Web-Produkte. Bei Andora Apps helfe ich Startups, ausgereifte Apps und Plattformen zu liefern, von der Idee bis zur Produktion.",
-    viewWork: "Arbeiten ansehen",
+      "Ich habe 7 Jahre Erfahrung darin, mobile und Web-Produkte von der Idee bis zur Produktion zu bringen. Bei Andora Apps helfe ich Startups und Projekten, skalierbare, moderne und nutzerorientierte Produkte zu entwickeln.",
+    viewWork: "Meine Arbeiten ansehen",
     getInTouch: "Kontakt aufnehmen",
     tags: "Flutter · Next.js · React · Swift · TypeScript",
     yearsExperience: "Jahre Erfahrung",
   },
+
   about: {
     eyebrow: "Über mich",
     title: "Von der Idee zur Produktion.",
     lede: {
       before:
-        "Senior Full-Stack-Entwickler mit 7 Jahren Erfahrung darin, Ideen in fertige Produkte zu verwandeln: Flutter für Mobile, Next.js/React für das Web und natives iOS mit Swift. Heute baue ich bei ",
+        "Ich bin Senior Full-Stack-Entwickler mit 7 Jahren Erfahrung darin, Ideen in echte, veröffentlichte Produkte zu verwandeln. Ich arbeite mit Flutter und Swift im Mobile-Bereich sowie mit Next.js, React und TypeScript im Web. Heute baue ich bei ",
       strong: "Andora Apps",
       after:
-        ". Davor habe ich mehrere Startups mitgegründet und deren Engineering geleitet, darunter Fuxi und Getarf Logistic (übernommen von Lojimod).",
+        " End-to-End-Produkte für Startups und Teams unterschiedlicher Größe. Davor war ich an der Gründung von Projekten wie Fuxi und Getarf Logistic beteiligt und leitete Engineering-Teams.",
     },
+
     stats: [
       { value: "7+", label: "Jahre Erfahrung" },
-      { value: "3", label: "Unternehmen gegründet / geleitet" },
+      { value: "3", label: "Gründer- / Führungsrollen" },
       { value: "20+", label: "Produkte veröffentlicht" },
-      { value: "Full-Stack", label: "Mobile, Web & iOS" },
+      { value: "Full-Stack", label: "Mobile · Web · iOS" },
     ],
+
     timeline: [
       {
         period: "Jetzt",
-        role: "Entwickler",
+        role: "Full-Stack-Entwickler",
         org: "Andora Apps",
         detail:
-          "Liefere vollständige Mobile- und Web-Lösungen für Startups, von der Architektur bis zum Launch.",
+          "Entwickle vollständige Mobile- und Web-Lösungen für Startups, von der technischen Architektur über die Entwicklung bis zum Launch.",
       },
       {
         period: "Zuvor",
         role: "Mitgründer & CEO",
         org: "Fuxi",
         detail:
-          "Habe eine Flutter-App für Gruppen-Shopping von Grund auf mit Clean Architecture entwickelt.",
+          "Habe ein Gruppen-Shopping-Produkt von Grund auf konzipiert und entwickelt, mit einer skalierbaren Struktur auf Basis von Flutter, Clean Architecture und BLoC.",
       },
       {
         period: "Zuvor",
         role: "Senior Flutter-Entwickler",
         org: "Lojimod",
         detail:
-          "Habe zentrale Flutter-Anwendungen nach der Übernahme von Getarf entwickelt und skaliert.",
+          "Nach der Übernahme von Getarf an der Entwicklung und Skalierung zentraler Flutter-Anwendungen zur Unterstützung operativer Prozesse mitgewirkt.",
       },
       {
         period: "Zuvor",
         role: "Mitgründer & CTO",
         org: "Getarf Logistic",
         detail:
-          "Leitete Produkt und Engineering; das Unternehmen wurde später von Lojimod übernommen.",
+          "Leitete Produkt- und Engineering-Prozesse und verantwortete die Entwicklung der mobilen Apps sowie der technischen Infrastruktur. Das Unternehmen wurde später von Lojimod übernommen.",
       },
       {
         period: "Zuvor",
         role: "Mobile Team Lead",
         org: "Pingpong University",
         detail:
-          "Leitete das Mobile-Engineering-Team, das die Kern-Apps der Plattform entwickelte.",
+          "Leitete das Engineering-Team, das die Kern-Apps der Plattform entwickelte, und verantwortete die mobilen Entwicklungsprozesse des Produkts.",
       },
     ],
   },
+
   services: {
     eyebrow: "Leistungen",
-    title: "Was ich für dich bauen kann",
+    title: "Was können wir bauen?",
     subtitle:
-      "End-to-End-Produktentwicklung: Ich übernehme alles von der Architektur bis zum Launch oder integriere mich in ein bestehendes Team.",
+      "Von der Umsetzung deiner Idee bis zur Weiterentwicklung deines bestehenden Produkts biete ich End-to-End-Unterstützung in Architektur, Entwicklung und Launch.",
     items: [
       {
         title: "Mobile-App-Entwicklung",
         description:
-          "Plattformübergreifende Apps mit Flutter und native iOS-Apps mit Swift: produktionsreif, App-Store-tauglich und skalierbar gebaut.",
-        detail: "Flutter · Swift · BLoC · Auslieferung im App Store & Play Store",
+          "Ich baue skalierbare plattformübergreifende Apps mit Flutter und native iOS-Erlebnisse mit Swift: produktionsreife, performanceorientierte Lösungen, bereit für den Store.",
+        detail: "Flutter · Swift · BLoC · App Store & Google Play",
       },
       {
         title: "Webanwendungsentwicklung",
         description:
-          "Schnelle, moderne Webanwendungen und Marketing-Websites mit Next.js und React: von Landingpages bis zu vollständigen Produkt-Dashboards.",
-        detail: "Next.js · React · TypeScript · Performance-orientierte Builds",
+          "Ich baue moderne, schnelle und skalierbare Webanwendungen mit Next.js und React, von Landingpages bis zu umfangreichen SaaS- und Admin-Dashboards.",
+        detail: "Next.js · React · TypeScript · Performance & Skalierbarkeit",
       },
       {
-        title: "Produkt- / MVP-Entwicklung",
+        title: "Produkt- & MVP-Entwicklung",
         description:
-          "0-zu-1-Entwicklung für Gründer: Ich verwandle ein Konzept in ein funktionierendes, marktreifes Produkt für Mobile und Web.",
-        detail: "Konzeption · schnelles Prototyping · launch-bereit in Wochen statt Monaten",
+          "Ich verwandle Ideen in frühem Stadium in ein funktionierendes MVP, definiere den richtigen Umfang und bringe Mobile- und Web-Produkte durch schnelle Iterationen in die Produktion.",
+        detail: "Produktumfang · Prototyping · MVP · Weg zur Produktion",
       },
       {
         title: "Technische Architektur & Beratung",
         description:
-          "Saubere, wartbare Architektur von Anfang an: Clean Architecture, BLoC und skalierbare Projektstruktur.",
-        detail: "Code-Reviews · System-Design · skalierbare Projektstruktur",
+          "Ich baue die richtige technische Architektur für Produkte, die langfristig wartbar und skalierbar bleiben müssen. Ich analysiere bestehende Projekte, reduziere technische Schulden und verbessere Entwicklungsprozesse.",
+        detail: "Code-Reviews · System-Design · Clean Architecture · Skalierbarkeit",
       },
     ],
   },
+
   projects: {
     eyebrow: "Projekte",
     title: "Ausgewählte Arbeiten",
-    subtitle: "Eine Mischung aus eigenen Produkten und Kundenprojekten im Mobile- und Web-Bereich.",
+    subtitle:
+      "Eine Auswahl der mobilen und Web-Produkte, die ich für unterschiedliche Anforderungen entwickelt habe, von eigenen Produkten bis zu Kundenprojekten.",
+
     items: [
       {
         name: "TourSync",
         description:
-          "KI-gestützte Tourmanagement-Plattform für Künstler, DJs und Musiker: Mobile, Web und Landingpage, vollständig selbst entwickelt.",
+          "KI-gestützte Tourmanagement-Plattform für Künstler, DJs und Musiker. Mobile App, Web-Plattform und Landingpage vollständig selbst entwickelt.",
       },
       {
         name: "Fuxi",
         description:
-          "Gruppen-Shopping- und Angebots-App mit Clean Architecture + BLoC und einer feature-first modularen Struktur.",
+          "Gruppen-Shopping- und Angebots-App, entwickelt mit Flutter, Clean Architecture, BLoC und einer feature-first modularen Struktur.",
       },
       {
         name: "Kiraala",
-        description: "Mobile Peer-to-Peer-Vermietungsplattform.",
+        description:
+          "Mobile Peer-to-Peer-Vermietungsplattform, auf der Nutzer ihre Gegenstände listen und vermieten können.",
       },
       {
         name: "Bulcar",
-        description: "Mitfahr-Plattform mit separaten Apps für Mitfahrer und Fahrer.",
+        description:
+          "Transportplattform mit Fokus auf Matching und Mitfahrgelegenheiten, mit separaten mobilen Apps für Mitfahrer und Fahrer.",
       },
       {
         name: "Tazepaket",
         description:
-          "Eine App im Stil von Too Good To Go zur Rettung überschüssiger Lebensmittel, entwickelt mit Clean Architecture + BLoC.",
+          "Eine an das Too-Good-To-Go-Modell angelehnte mobile App zur Vermeidung von Lebensmittelverschwendung. Entwickelt mit Clean Architecture und BLoC.",
       },
     ],
-    visitLabel: "Besuchen",
-    githubLabel: "auf GitHub",
+
+    visitLabel: "Projekt ansehen",
+    githubLabel: "Auf GitHub ansehen",
   },
+
   stack: {
     eyebrow: "Stack",
-    title: "Werkzeuge, die ich nutze",
+    title: "Technologien, die ich nutze",
   },
+
   contact: {
     eyebrow: "Kontakt",
-    title: "Lass uns etwas bauen.",
+    title: "Lass uns gemeinsam ein Produkt bauen.",
     subtitle:
-      "Hast du ein Projekt im Kopf oder möchtest einfach nur fachsimpeln? Ich bin derzeit offen für Freelance-Arbeit, schreib mir eine Nachricht oder melde dich direkt.",
+      "Hast du eine neue Projektidee oder suchst einen erfahrenen Entwickler für dein bestehendes Produkt? Ich bin offen für Freelance-Arbeit. Erzähl mir kurz von deinem Projekt.",
     form: {
-      nameLabel: "Name",
-      namePlaceholder: "Dein Name",
+      nameLabel: "Vor- und Nachname",
+      namePlaceholder: "Dein Vor- und Nachname",
       emailLabel: "E-Mail",
       emailPlaceholder: "du@beispiel.com",
       messageLabel: "Nachricht",
-      messagePlaceholder: "Erzähl mir von deinem Projekt...",
+      messagePlaceholder: "Erzähl mir von deinem Projekt und deinen Anforderungen...",
       submit: "Nachricht senden",
       sending: "Wird gesendet…",
-      defaultSuccess: "Danke! Ich melde mich bald bei dir.",
+      defaultSuccess: "Danke! Ich habe deine Nachricht erhalten und melde mich bald bei dir.",
     },
   },
+
   footer: {
-    tagline: "Senior Full-Stack-Entwickler, Flutter, Next.js/React & Swift/iOS.",
+    tagline: "Senior Full-Stack-Entwickler · Flutter · Next.js / React · Swift / iOS",
     rightsReserved: "Alle Rechte vorbehalten.",
   },
 };

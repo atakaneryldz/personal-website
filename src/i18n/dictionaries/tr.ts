@@ -12,158 +12,173 @@ const dictionary: Dictionary = {
     openMenu: "Menüyü aç",
     closeMenu: "Menüyü kapat",
   },
+
   hero: {
-    badge: "Freelance İşlere Açığım",
+    badge: "Freelance projelere açığım",
     headingWords: ["Merhaba", "👋,", "ben", "Atakan."],
     role: "Kıdemli Full-Stack Geliştirici",
     description:
-      "Mobil ve web ürünlerini uçtan uca geliştirmede 7 yıllık deneyim. Andora Apps'te startup'ların fikirden üretime kusursuz uygulama ve platformlar çıkarmasına yardımcı oluyorum.",
-    viewWork: "Çalışmalarımı Gör",
+      "Mobil ve web ürünlerini fikir aşamasından üretime taşımada 7 yıllık deneyime sahibim. Andora Apps'te startup'ların ve girişimlerin ölçeklenebilir, modern ve kullanıcı odaklı ürünler geliştirmesine yardımcı oluyorum.",
+    viewWork: "Projelerimi Gör",
     getInTouch: "İletişime Geç",
     tags: "Flutter · Next.js · React · Swift · TypeScript",
     yearsExperience: "Yıl Deneyim",
   },
+
   about: {
     eyebrow: "Hakkımda",
     title: "Fikirden üretime.",
     lede: {
       before:
-        "Fikirleri yayınlanmış ürünlere dönüştürmede 7 yıllık deneyime sahip kıdemli full-stack geliştiriciyim: mobil için Flutter, web için Next.js/React ve Swift ile native iOS. Bugün ",
+        "Fikirleri gerçek ve yayınlanmış ürünlere dönüştürme konusunda 7 yıllık deneyime sahip kıdemli full-stack geliştiriciyim. Mobil tarafta Flutter ve Swift, web tarafında ise Next.js, React ve TypeScript ile çalışıyorum. Bugün ",
       strong: "Andora Apps",
       after:
-        "'te geliştiriyorum. Öncesinde Fuxi ve Getarf Logistic (Lojimod tarafından satın alındı) dahil çeşitli startup'lar kurup mühendislik ekiplerine liderlik ettim.",
+        "'te startup'lar ve farklı ölçeklerdeki ekipler için uçtan uca ürünler geliştiriyorum. Daha önce Fuxi ve Getarf Logistic gibi girişimlerin kuruluşunda yer aldım ve mühendislik ekiplerine liderlik ettim.",
     },
+
     stats: [
       { value: "7+", label: "Yıl Deneyim" },
-      { value: "3", label: "Kurulan / Yönetilen Şirket" },
+      { value: "3", label: "Kurucu / Yönetici Rolü" },
       { value: "20+", label: "Yayınlanan Ürün" },
-      { value: "Full-Stack", label: "Mobil, Web & iOS" },
+      { value: "Full-Stack", label: "Mobil · Web · iOS" },
     ],
+
     timeline: [
       {
-        period: "Şimdi",
-        role: "Geliştirici",
+        period: "Günümüz",
+        role: "Full-Stack Geliştirici",
         org: "Andora Apps",
         detail:
-          "Startup'lar için mimariden lansmana kadar uçtan uca mobil ve web çözümleri sunuyorum.",
+          "Startup'lar için teknik mimariden geliştirme ve lansmana kadar uçtan uca mobil ve web çözümleri geliştiriyorum.",
       },
       {
-        period: "Önceki",
+        period: "Öncesi",
         role: "Kurucu Ortak & CEO",
         org: "Fuxi",
         detail:
-          "Clean Architecture ile sıfırdan grup alışverişi Flutter uygulaması geliştirdim.",
+          "Grup alışverişi odaklı mobil ürünü sıfırdan tasarlayıp geliştirdim. Flutter, Clean Architecture ve BLoC tabanlı ölçeklenebilir bir yapı kurdum.",
       },
       {
-        period: "Önceki",
+        period: "Öncesi",
         role: "Kıdemli Flutter Geliştirici",
         org: "Lojimod",
         detail:
-          "Getarf'ın satın alınmasının ardından temel Flutter uygulamalarını geliştirip ölçeklendirdim.",
+          "Getarf'ın satın alınmasının ardından, operasyonel süreçleri destekleyen temel Flutter uygulamalarının geliştirilmesi ve ölçeklendirilmesinde görev aldım.",
       },
       {
-        period: "Önceki",
+        period: "Öncesi",
         role: "Kurucu Ortak & CTO",
         org: "Getarf Logistic",
         detail:
-          "Ürün ve mühendislik ekiplerine liderlik ettim; şirket daha sonra Lojimod tarafından satın alındı.",
+          "Ürün ve mühendislik süreçlerine liderlik ettim; mobil uygulamaların ve teknik altyapının geliştirilmesini yönettim. Şirket daha sonra Lojimod tarafından satın alındı.",
       },
       {
-        period: "Önceki",
+        period: "Öncesi",
         role: "Mobil Ekip Lideri",
         org: "Pingpong University",
         detail:
-          "Platformun temel uygulamalarını geliştiren mobil mühendislik ekibine liderlik ettim.",
+          "Platformun temel mobil uygulamalarını geliştiren mühendislik ekibine liderlik ettim ve ürünün mobil geliştirme süreçlerini yönettim.",
       },
     ],
   },
+
   services: {
     eyebrow: "Hizmetler",
-    title: "Sizin için neler geliştirebilirim",
+    title: "Ne geliştirebiliriz?",
     subtitle:
-      "Uçtan uca ürün geliştirme: mimariden lansmana kadar her şeyi ben üstleniyorum ya da mevcut bir ekibe dahil oluyorum.",
+      "Fikrinizi hayata geçirmekten mevcut ürününüzü geliştirmeye kadar; mimari, geliştirme ve lansman süreçlerinde uçtan uca destek oluyorum.",
     items: [
       {
         title: "Mobil Uygulama Geliştirme",
         description:
-          "Flutter ile çapraz platform uygulamalar ve Swift ile native iOS uygulamaları: üretime hazır, App Store'a hazır, ölçeklenebilir şekilde geliştirilir.",
-        detail: "Flutter · Swift · BLoC · App Store & Play Store yayınlama",
+          "Flutter ile ölçeklenebilir çapraz platform uygulamalar, Swift ile native iOS deneyimleri geliştiriyorum. Üretime ve mağaza yayınına hazır, performans odaklı çözümler.",
+        detail: "Flutter · Swift · BLoC · App Store & Google Play",
       },
       {
         title: "Web Uygulama Geliştirme",
         description:
-          "Next.js ve React ile hızlı, modern web uygulamaları ve tanıtım siteleri: açılış sayfalarından tam kapsamlı ürün panellerine kadar.",
-        detail: "Next.js · React · TypeScript · Performans odaklı geliştirme",
+          "Next.js ve React ile modern, hızlı ve ölçeklenebilir web uygulamaları geliştiriyorum. Landing page'lerden kapsamlı SaaS ve yönetim panellerine kadar.",
+        detail: "Next.js · React · TypeScript · Performans & Ölçeklenebilirlik",
       },
       {
-        title: "Ürün / MVP Geliştirme",
+        title: "Ürün & MVP Geliştirme",
         description:
-          "Kurucular için 0'dan 1'e geliştirme: bir konsepti mobil ve webde çalışan, yayınlanabilir bir ürüne dönüştürüyorum.",
-        detail: "Kapsam belirleme · hızlı prototipleme · aylar değil haftalar içinde lansmana hazır",
+          "Fikir aşamasındaki ürünleri çalışan bir MVP'ye dönüştürüyorum. Doğru kapsamı belirleyerek hızlı iterasyonlarla mobil ve web ürünlerini üretime taşıyorum.",
+        detail: "Ürün kapsamı · Prototipleme · MVP · Üretime geçiş",
       },
       {
         title: "Teknik Mimari & Danışmanlık",
         description:
-          "İlk günden itibaren temiz, sürdürülebilir mimari: Clean Architecture, BLoC ve ölçeklenebilir proje yapısı.",
-        detail: "Kod incelemesi · sistem tasarımı · ölçeklenebilir proje yapısı",
+          "Uzun vadede sürdürülebilir ve ölçeklenebilir ürünler için doğru teknik mimariyi oluşturuyorum. Mevcut projeleri analiz ediyor, teknik borcu azaltıyor ve geliştirme süreçlerini iyileştiriyorum.",
+        detail: "Kod inceleme · Sistem tasarımı · Clean Architecture · Ölçeklenebilirlik",
       },
     ],
   },
+
   projects: {
     eyebrow: "Projeler",
     title: "Seçilmiş çalışmalar",
-    subtitle: "Mobil ve web alanında kurucu odaklı ürünler ile müşteri projelerinin bir karışımı.",
+    subtitle:
+      "Kurucusu olduğum ürünlerden müşteri projelerine kadar, farklı ihtiyaçlar için geliştirdiğim mobil ve web ürünlerinden bazıları.",
+
     items: [
       {
         name: "TourSync",
         description:
-          "Sanatçılar, DJ'ler ve müzisyenler için yapay zeka destekli tur yönetim platformu: mobil, web ve açılış sayfası, uçtan uca geliştirildi.",
+          "Sanatçılar, DJ'ler ve müzisyenler için yapay zeka destekli tur yönetim platformu. Mobil uygulama, web platformu ve landing page uçtan uca geliştirildi.",
       },
       {
         name: "Fuxi",
         description:
-          "Clean Architecture + BLoC ve feature-first modüler yapı ile geliştirilmiş grup alışverişi ve fırsat uygulaması.",
+          "Grup alışverişi ve fırsat odaklı mobil uygulama. Flutter, Clean Architecture, BLoC ve feature-first modüler yapı kullanılarak geliştirildi.",
       },
       {
         name: "Kiraala",
-        description: "Kullanıcıdan kullanıcıya kiralama pazar yeri mobil uygulaması.",
+        description:
+          "Kullanıcıların ürünlerini listeleyip kiralayabildiği, kullanıcıdan kullanıcıya çalışan mobil kiralama platformu.",
       },
       {
         name: "Bulcar",
-        description: "Yolcu ve sürücü için ayrı uygulamaları olan yolculuk paylaşım platformu.",
+        description:
+          "Yolcular ve sürücüler için ayrı mobil uygulamalara sahip, eşleşme ve yolculuk paylaşımı odaklı ulaşım platformu.",
       },
       {
         name: "Tazepaket",
         description:
-          "Fazla gıdayı kurtarmak için Too Good To Go tarzında, Clean Architecture + BLoC ile geliştirilmiş bir uygulama.",
+          "Fazla gıdaların israf edilmesini önlemeyi amaçlayan, Too Good To Go modelinden ilham alan mobil uygulama. Clean Architecture ve BLoC ile geliştirildi.",
       },
     ],
-    visitLabel: "Ziyaret et",
-    githubLabel: "GitHub'da",
+
+    visitLabel: "Projeyi Gör",
+    githubLabel: "GitHub'da Gör",
   },
+
   stack: {
     eyebrow: "Teknolojiler",
-    title: "Kullandığım araçlar",
+    title: "Kullandığım teknolojiler",
   },
+
   contact: {
     eyebrow: "İletişim",
-    title: "Birlikte bir şeyler inşa edelim.",
+    title: "Birlikte bir ürün geliştirelim.",
     subtitle:
-      "Aklınızda bir proje mi var, yoksa sadece sohbet mi etmek istiyorsunuz? Şu anda freelance işlere açığım, bir mesaj gönderin ya da doğrudan ulaşın.",
+      "Yeni bir proje fikriniz mi var veya mevcut ürününüz için deneyimli bir geliştirici mi arıyorsunuz? Freelance projelere açığım. Bana kısaca projenizden bahsedin.",
     form: {
-      nameLabel: "Ad",
-      namePlaceholder: "Adınız",
+      nameLabel: "Ad Soyad",
+      namePlaceholder: "Adınız Soyadınız",
       emailLabel: "E-posta",
       emailPlaceholder: "siz@ornek.com",
       messageLabel: "Mesaj",
-      messagePlaceholder: "Projenizden bahsedin...",
-      submit: "Mesaj gönder",
+      messagePlaceholder: "Projenizden ve ihtiyaçlarınızdan bahsedin...",
+      submit: "Mesaj Gönder",
       sending: "Gönderiliyor…",
-      defaultSuccess: "Teşekkürler! En kısa sürede size döneceğim.",
+      defaultSuccess: "Teşekkürler! Mesajınızı aldım, en kısa sürede size dönüş yapacağım.",
     },
   },
+
   footer: {
-    tagline: "Kıdemli Full-Stack Geliştirici, Flutter, Next.js/React & Swift/iOS.",
+    tagline:
+      "Kıdemli Full-Stack Geliştirici · Flutter · Next.js / React · Swift / iOS",
     rightsReserved: "Tüm hakları saklıdır.",
   },
 };

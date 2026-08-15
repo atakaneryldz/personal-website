@@ -12,158 +12,172 @@ const dictionary: Dictionary = {
     openMenu: "Open menu",
     closeMenu: "Close menu",
   },
+
   hero: {
-    badge: "Open for Freelance",
+    badge: "Open for freelance projects",
     headingWords: ["Hi", "👋,", "I'm", "Atakan."],
     role: "Senior Full-Stack Developer",
     description:
-      "7 years of experience building mobile and web products end to end. At Andora Apps, I help startups ship polished apps and platforms, from idea to production.",
-    viewWork: "View Work",
+      "I have 7 years of experience taking mobile and web products from idea to production. At Andora Apps, I help startups and ventures build scalable, modern, user-focused products.",
+    viewWork: "View My Work",
     getInTouch: "Get in Touch",
     tags: "Flutter · Next.js · React · Swift · TypeScript",
     yearsExperience: "Years Experience",
   },
+
   about: {
     eyebrow: "About",
     title: "From idea to production.",
     lede: {
       before:
-        "Senior full-stack developer with 7 years of experience turning ideas into shipped products: Flutter for mobile, Next.js/React for the web, and native iOS with Swift. Today I build at ",
+        "I'm a senior full-stack developer with 7 years of experience turning ideas into real, shipped products. I work with Flutter and Swift on mobile, and Next.js, React, and TypeScript on the web. Today I build at ",
       strong: "Andora Apps",
       after:
-        ". Before that, I founded and led engineering at several startups, including Fuxi and Getarf Logistic (acquired by Lojimod).",
+        ", developing end-to-end products for startups and teams of different sizes. Previously, I was involved in founding ventures like Fuxi and Getarf Logistic and led engineering teams.",
     },
+
     stats: [
       { value: "7+", label: "Years Experience" },
-      { value: "3", label: "Companies Founded / Led" },
+      { value: "3", label: "Founder / Leadership Roles" },
       { value: "20+", label: "Products Shipped" },
-      { value: "Full-Stack", label: "Mobile, Web & iOS" },
+      { value: "Full-Stack", label: "Mobile · Web · iOS" },
     ],
+
     timeline: [
       {
         period: "Now",
-        role: "Developer",
+        role: "Full-Stack Developer",
         org: "Andora Apps",
         detail:
-          "Delivering complete mobile and web solutions for startups, from architecture to launch.",
+          "Building complete mobile and web solutions for startups, from technical architecture through development and launch.",
       },
       {
         period: "Prev",
         role: "Co-founder & CEO",
         org: "Fuxi",
         detail:
-          "Built a group-shopping Flutter app from the ground up with Clean Architecture.",
+          "Designed and built a group-shopping mobile product from the ground up, with a scalable structure based on Flutter, Clean Architecture, and BLoC.",
       },
       {
         period: "Prev",
         role: "Senior Flutter Developer",
         org: "Lojimod",
         detail:
-          "Built and scaled core Flutter applications after Getarf's acquisition.",
+          "After Getarf's acquisition, worked on developing and scaling core Flutter applications supporting operational processes.",
       },
       {
         period: "Prev",
         role: "Co-founder & CTO",
         org: "Getarf Logistic",
         detail:
-          "Led product and engineering; company was later acquired by Lojimod.",
+          "Led product and engineering processes, overseeing the development of the mobile apps and technical infrastructure. The company was later acquired by Lojimod.",
       },
       {
         period: "Prev",
         role: "Mobile Team Lead",
         org: "Pingpong University",
         detail:
-          "Led the mobile engineering team building the platform's core apps.",
+          "Led the engineering team building the platform's core mobile apps and managed the product's mobile development processes.",
       },
     ],
   },
+
   services: {
     eyebrow: "Services",
-    title: "What I can build for you",
+    title: "What can we build?",
     subtitle:
-      "End-to-end product development. I handle everything from architecture to launch, or plug into an existing team.",
+      "From bringing your idea to life to improving your existing product, I provide end-to-end support across architecture, development, and launch.",
     items: [
       {
         title: "Mobile App Development",
         description:
-          "Cross-platform apps with Flutter and native iOS apps with Swift, production-ready, App Store-ready, and built to scale.",
-        detail: "Flutter · Swift · BLoC · App Store & Play Store delivery",
+          "I build scalable cross-platform apps with Flutter and native iOS experiences with Swift: production-ready, performance-focused solutions ready for the store.",
+        detail: "Flutter · Swift · BLoC · App Store & Google Play",
       },
       {
         title: "Web Application Development",
         description:
-          "Fast, modern web apps and marketing sites with Next.js and React, from landing pages to full product dashboards.",
-        detail: "Next.js · React · TypeScript · Performance-first builds",
+          "I build modern, fast, and scalable web applications with Next.js and React, from landing pages to full-scale SaaS and admin dashboards.",
+        detail: "Next.js · React · TypeScript · Performance & Scalability",
       },
       {
-        title: "Product / MVP Development",
+        title: "Product & MVP Development",
         description:
-          "0-to-1 builds for founders: turning a concept into a working, shippable product across mobile and web.",
-        detail: "Scoping · rapid prototyping · launch-ready in weeks, not months",
+          "I turn early-stage ideas into a working MVP, scoping things right and moving mobile and web products to production through fast iterations.",
+        detail: "Product scoping · Prototyping · MVP · Path to production",
       },
       {
         title: "Technical Architecture & Consulting",
         description:
-          "Clean, maintainable architecture from day one: Clean Architecture, BLoC, and scalable project structure.",
-        detail: "Code review · system design · scalable project structure",
+          "I build the right technical architecture for products that need to stay maintainable and scalable long-term. I analyze existing projects, reduce technical debt, and improve development processes.",
+        detail: "Code review · System design · Clean Architecture · Scalability",
       },
     ],
   },
+
   projects: {
     eyebrow: "Projects",
     title: "Selected work",
-    subtitle: "A mix of founder-led products and client work across mobile and web.",
+    subtitle:
+      "A sample of the mobile and web products I've built for different needs, from founder-led products to client projects.",
+
     items: [
       {
         name: "TourSync",
         description:
-          "AI-powered tour management platform for artists, DJs, and musicians: mobile, web, and landing page, built end-to-end.",
+          "AI-powered tour management platform for artists, DJs, and musicians. Mobile app, web platform, and landing page built end-to-end.",
       },
       {
         name: "Fuxi",
         description:
-          "Group-shopping and deals app built with Clean Architecture + BLoC and a feature-first modular structure.",
+          "Group-shopping and deals mobile app built with Flutter, Clean Architecture, BLoC, and a feature-first modular structure.",
       },
       {
         name: "Kiraala",
-        description: "Peer-to-peer rental marketplace mobile application.",
+        description:
+          "A peer-to-peer mobile rental platform where users can list and rent out their items.",
       },
       {
         name: "Bulcar",
-        description: "Carpooling platform with separate rider and driver apps.",
+        description:
+          "A transportation platform focused on matching and ride-sharing, with separate mobile apps for riders and drivers.",
       },
       {
         name: "Tazepaket",
         description:
-          "A Too Good To Go-style app for rescuing surplus food, built with Clean Architecture + BLoC.",
+          "A mobile app inspired by the Too Good To Go model, aimed at preventing surplus food waste. Built with Clean Architecture and BLoC.",
       },
     ],
-    visitLabel: "Visit",
-    githubLabel: "on GitHub",
+
+    visitLabel: "View Project",
+    githubLabel: "View on GitHub",
   },
+
   stack: {
     eyebrow: "Stack",
-    title: "Tools I reach for",
+    title: "Technologies I use",
   },
+
   contact: {
     eyebrow: "Contact",
-    title: "Let’s build something.",
+    title: "Let's build a product together.",
     subtitle:
-      "Have a project in mind, or just want to talk shop? I’m currently open for freelance work, so send a message or reach out directly.",
+      "Have a new project idea, or looking for an experienced developer for your existing product? I'm open for freelance work. Tell me a bit about your project.",
     form: {
-      nameLabel: "Name",
-      namePlaceholder: "Your name",
+      nameLabel: "Full Name",
+      namePlaceholder: "Your full name",
       emailLabel: "Email",
       emailPlaceholder: "you@example.com",
       messageLabel: "Message",
-      messagePlaceholder: "Tell me about your project...",
-      submit: "Send message",
+      messagePlaceholder: "Tell me about your project and your needs...",
+      submit: "Send Message",
       sending: "Sending…",
-      defaultSuccess: "Thanks! I'll get back to you soon.",
+      defaultSuccess: "Thanks! I've received your message and will get back to you soon.",
     },
   },
+
   footer: {
-    tagline: "Senior Full-Stack Developer, Flutter, Next.js/React & Swift/iOS.",
+    tagline: "Senior Full-Stack Developer · Flutter · Next.js / React · Swift / iOS",
     rightsReserved: "All rights reserved.",
   },
 };

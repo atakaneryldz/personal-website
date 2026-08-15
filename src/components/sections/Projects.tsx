@@ -33,8 +33,8 @@ type Project = {
   link?: string;
   github?: string;
   featured?: boolean;
-  size?: "lg" | "md" | "sm";
   icon?: string;
+  cover?: string;
 };
 
 const PROJECT_META: Omit<Project, "name" | "description">[] = [
@@ -42,33 +42,33 @@ const PROJECT_META: Omit<Project, "name" | "description">[] = [
     tags: ["Flutter", "Next.js", "TypeScript", "AI"],
     link: "https://toursyncapp.com",
     featured: true,
-    size: "lg",
     icon: "/images/launcher_toursync.png",
+    cover: "/images/project_toursync.png",
   },
   {
     tags: ["Flutter", "BLoC", "Clean Architecture"],
     link: "https://indir.heyfuxi.com",
     github: "https://github.com/atakaneryldz/fuxi_app_open",
-    size: "md",
     icon: "/images/launcher_fuxi.png",
+    cover: "/images/project_fuxi.png",
   },
   {
     tags: ["Flutter", "BLoC", "Firebase"],
     link: "https://onelink.to/kiraala.app",
-    size: "md",
     icon: "/images/launcher_kiraala.png",
+    cover: "/images/project_fuxi.png",
   },
   {
     tags: ["Flutter", "Next.js", "BLoC", "Maps"],
     link: "https://bulcar.app",
-    size: "md",
     icon: "/images/launcher_bulcar.png",
+    cover: "/images/project_fuxi.png",
   },
   {
     tags: ["Flutter", "BLoC", "Clean Architecture"],
     github: "https://github.com/atakaneryldz/tazepaket_app_open",
-    size: "md",
     icon: "/images/launcher_tazepaket.png",
+    cover: "/images/project_tazepaket.png",
   },
 ];
 
@@ -109,7 +109,7 @@ function TiltCard({
   return (
     <motion.div
       ref={ref}
-      className={`project-card project-card-${project.size ?? "sm"}${project.featured ? " project-card-featured" : ""}`}
+      className={`project-card${project.featured ? " project-card-featured" : ""}`}
       variants={variant}
       onPointerMove={handlePointerMove}
       onPointerLeave={handlePointerLeave}
@@ -121,54 +121,69 @@ function TiltCard({
       whileHover={prefersReducedMotion ? undefined : { y: -6 }}
       transition={{ duration: 0.25, ease: "easeOut" }}
     >
-      <div className="project-card-header">
-        <div className="project-card-heading">
-          {project.icon && (
-            <Image
-              src={project.icon}
-              alt=""
-              width={32}
-              height={32}
-              className="project-card-icon"
-              aria-hidden="true"
-            />
-          )}
-          <h3 className="project-card-title">{project.name}</h3>
+      {project.cover && (
+        <div className="project-card-cover">
+          <Image
+            src={project.cover}
+            alt=""
+            fill
+            sizes="(max-width: 800px) 100vw, 50vw"
+            className="project-card-cover-image"
+            aria-hidden="true"
+          />
         </div>
-        <div className="project-card-links">
-          {project.github && (
-            <a
-              href={project.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-card-icon-link"
-              aria-label={`${project.name} ${githubLabel}`}
-            >
-              <GithubIcon size={16} />
-            </a>
-          )}
-          {project.link && (
-            <a
-              href={project.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-card-icon-link"
-              aria-label={`${visitLabel} ${project.name}`}
-            >
-              <ArrowUpRight size={16} />
-            </a>
-          )}
+      )}
+
+      <div className="project-card-body">
+        <div className="project-card-header">
+          <div className="project-card-heading">
+            {project.icon && (
+              <Image
+                src={project.icon}
+                alt=""
+                width={32}
+                height={32}
+                className="project-card-icon"
+                aria-hidden="true"
+              />
+            )}
+            <h3 className="project-card-title">{project.name}</h3>
+          </div>
+          <div className="project-card-links">
+            {project.github && (
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-card-icon-link"
+                aria-label={`${project.name} ${githubLabel}`}
+              >
+                <GithubIcon size={16} />
+              </a>
+            )}
+            {project.link && (
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-card-icon-link"
+                aria-label={`${visitLabel} ${project.name}`}
+              >
+                <ArrowUpRight size={16} />
+              </a>
+            )}
+          </div>
         </div>
-      </div>
 
-      <p className="project-card-description">{project.description}</p>
+        <p className="project-card-description">{project.description}</p>
 
-      <div className="project-card-tags">
-        {project.tags.map((tag) => (
-          <span className="project-card-tag" key={tag}>
-            {tag}
-          </span>
-        ))}
+        <div className="project-card-tags">
+          {project.tags.map((tag) => (
+            <span className="project-card-tag" key={tag}>
+              {tag}
+            </span>
+          ))}
+        </div>
       </div>
     </motion.div>
   );
