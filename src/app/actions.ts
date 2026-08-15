@@ -66,7 +66,7 @@ export async function sendContactMessage(
       };
     }
 
-    return { status: "success", message: "Thanks — I'll get back to you soon." };
+    return { status: "success", message: "Thanks! I'll get back to you soon." };
   } catch (err) {
     console.error("Contact form send failed:", err);
     return {

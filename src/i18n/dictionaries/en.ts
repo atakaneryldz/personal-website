@@ -17,7 +17,7 @@ const dictionary: Dictionary = {
     headingWords: ["Hi", "👋,", "I'm", "Atakan."],
     role: "Senior Full-Stack Developer",
     description:
-      "7 years of experience building mobile and web products end to end. Freelancing through Andora Apps, I help startups ship polished apps and platforms, from idea to production.",
+      "7 years of experience building mobile and web products end to end. At Andora Apps, I help startups ship polished apps and platforms, from idea to production.",
     viewWork: "View Work",
     getInTouch: "Get in Touch",
     tags: "Flutter · Next.js · React · Swift · TypeScript",
@@ -25,13 +25,13 @@ const dictionary: Dictionary = {
   },
   about: {
     eyebrow: "About",
-    title: "Building for the world.",
+    title: "From idea to production.",
     lede: {
       before:
-        "Senior full-stack developer with 7 years of experience turning ideas into shipped products — Flutter for mobile, Next.js/React for the web, and native iOS with Swift. Today I freelance through ",
+        "Senior full-stack developer with 7 years of experience turning ideas into shipped products: Flutter for mobile, Next.js/React for the web, and native iOS with Swift. Today I build at ",
       strong: "Andora Apps",
       after:
-        "; before that, I founded and led engineering at several startups, including Fuxi and Getarf Logistic (acquired by Lojimod).",
+        ". Before that, I founded and led engineering at several startups, including Fuxi and Getarf Logistic (acquired by Lojimod).",
     },
     stats: [
       { value: "7+", label: "Years Experience" },
@@ -42,10 +42,10 @@ const dictionary: Dictionary = {
     timeline: [
       {
         period: "Now",
-        role: "Freelance Developer",
+        role: "Developer",
         org: "Andora Apps",
         detail:
-          "Delivering complete mobile and web solutions for startups — from architecture to launch.",
+          "Delivering complete mobile and web solutions for startups, from architecture to launch.",
       },
       {
         period: "Prev",
@@ -81,30 +81,30 @@ const dictionary: Dictionary = {
     eyebrow: "Services",
     title: "What I can build for you",
     subtitle:
-      "End-to-end product development — I handle everything from architecture to launch, or plug into an existing team.",
+      "End-to-end product development. I handle everything from architecture to launch, or plug into an existing team.",
     items: [
       {
         title: "Mobile App Development",
         description:
-          "Cross-platform apps with Flutter and native iOS apps with Swift — production-ready, App Store-ready, built to scale.",
+          "Cross-platform apps with Flutter and native iOS apps with Swift, production-ready, App Store-ready, and built to scale.",
         detail: "Flutter · Swift · BLoC · App Store & Play Store delivery",
       },
       {
         title: "Web Application Development",
         description:
-          "Fast, modern web apps and marketing sites with Next.js and React — from landing pages to full product dashboards.",
+          "Fast, modern web apps and marketing sites with Next.js and React, from landing pages to full product dashboards.",
         detail: "Next.js · React · TypeScript · Performance-first builds",
       },
       {
         title: "Product / MVP Development",
         description:
-          "0-to-1 builds for founders — turning a concept into a working, shippable product across mobile and web.",
+          "0-to-1 builds for founders: turning a concept into a working, shippable product across mobile and web.",
         detail: "Scoping · rapid prototyping · launch-ready in weeks, not months",
       },
       {
         title: "Technical Architecture & Consulting",
         description:
-          "Clean, maintainable architecture from day one — Clean Architecture, BLoC, and scalable project structure.",
+          "Clean, maintainable architecture from day one: Clean Architecture, BLoC, and scalable project structure.",
         detail: "Code review · system design · scalable project structure",
       },
     ],
@@ -117,7 +117,7 @@ const dictionary: Dictionary = {
       {
         name: "TourSync",
         description:
-          "AI-powered tour management platform for artists, DJs, and musicians — mobile, web, and landing page, built end-to-end.",
+          "AI-powered tour management platform for artists, DJs, and musicians: mobile, web, and landing page, built end-to-end.",
       },
       {
         name: "Fuxi",
@@ -149,7 +149,7 @@ const dictionary: Dictionary = {
     eyebrow: "Contact",
     title: "Let’s build something.",
     subtitle:
-      "Have a project in mind, or just want to talk shop? I’m currently open for freelance work — send a message or reach out directly.",
+      "Have a project in mind, or just want to talk shop? I’m currently open for freelance work, so send a message or reach out directly.",
     form: {
       nameLabel: "Name",
       namePlaceholder: "Your name",
@@ -159,11 +159,11 @@ const dictionary: Dictionary = {
       messagePlaceholder: "Tell me about your project...",
       submit: "Send message",
       sending: "Sending…",
-      defaultSuccess: "Thanks — I'll get back to you soon.",
+      defaultSuccess: "Thanks! I'll get back to you soon.",
     },
   },
   footer: {
-    tagline: "Senior Full-Stack Developer — Flutter, Next.js/React & Swift/iOS.",
+    tagline: "Senior Full-Stack Developer, Flutter, Next.js/React & Swift/iOS.",
     rightsReserved: "All rights reserved.",
   },
 };

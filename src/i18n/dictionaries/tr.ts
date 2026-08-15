@@ -17,7 +17,7 @@ const dictionary: Dictionary = {
     headingWords: ["Merhaba", "👋,", "ben", "Atakan."],
     role: "Kıdemli Full-Stack Geliştirici",
     description:
-      "Mobil ve web ürünlerini uçtan uca geliştirmede 7 yıllık deneyim. Andora Apps çatısı altında freelance çalışarak, startup'ların fikirden üretime kusursuz uygulama ve platformlar çıkarmasına yardımcı oluyorum.",
+      "Mobil ve web ürünlerini uçtan uca geliştirmede 7 yıllık deneyim. Andora Apps'te startup'ların fikirden üretime kusursuz uygulama ve platformlar çıkarmasına yardımcı oluyorum.",
     viewWork: "Çalışmalarımı Gör",
     getInTouch: "İletişime Geç",
     tags: "Flutter · Next.js · React · Swift · TypeScript",
@@ -25,13 +25,13 @@ const dictionary: Dictionary = {
   },
   about: {
     eyebrow: "Hakkımda",
-    title: "Dünya için geliştiriyorum.",
+    title: "Fikirden üretime.",
     lede: {
       before:
-        "Fikirleri yayınlanmış ürünlere dönüştürmede 7 yıllık deneyime sahip kıdemli full-stack geliştirici — mobil için Flutter, web için Next.js/React ve Swift ile native iOS. Bugün ",
+        "Fikirleri yayınlanmış ürünlere dönüştürmede 7 yıllık deneyime sahip kıdemli full-stack geliştiriciyim: mobil için Flutter, web için Next.js/React ve Swift ile native iOS. Bugün ",
       strong: "Andora Apps",
       after:
-        " çatısı altında freelance çalışıyorum; öncesinde Fuxi ve Getarf Logistic (Lojimod tarafından satın alındı) dahil çeşitli startup'lar kurup mühendislik ekiplerine liderlik ettim.",
+        "'te geliştiriyorum. Öncesinde Fuxi ve Getarf Logistic (Lojimod tarafından satın alındı) dahil çeşitli startup'lar kurup mühendislik ekiplerine liderlik ettim.",
     },
     stats: [
       { value: "7+", label: "Yıl Deneyim" },
@@ -42,10 +42,10 @@ const dictionary: Dictionary = {
     timeline: [
       {
         period: "Şimdi",
-        role: "Freelance Geliştirici",
+        role: "Geliştirici",
         org: "Andora Apps",
         detail:
-          "Startup'lar için mimariden lansmana uçtan uca mobil ve web çözümleri sunuyorum.",
+          "Startup'lar için mimariden lansmana kadar uçtan uca mobil ve web çözümleri sunuyorum.",
       },
       {
         period: "Önceki",
@@ -81,30 +81,30 @@ const dictionary: Dictionary = {
     eyebrow: "Hizmetler",
     title: "Sizin için neler geliştirebilirim",
     subtitle:
-      "Uçtan uca ürün geliştirme — mimariden lansmana kadar her şeyi ben üstleniyorum ya da mevcut bir ekibe dahil oluyorum.",
+      "Uçtan uca ürün geliştirme: mimariden lansmana kadar her şeyi ben üstleniyorum ya da mevcut bir ekibe dahil oluyorum.",
     items: [
       {
         title: "Mobil Uygulama Geliştirme",
         description:
-          "Flutter ile çapraz platform uygulamalar ve Swift ile native iOS uygulamaları — üretime hazır, App Store'a hazır, ölçeklenebilir şekilde geliştirilir.",
+          "Flutter ile çapraz platform uygulamalar ve Swift ile native iOS uygulamaları: üretime hazır, App Store'a hazır, ölçeklenebilir şekilde geliştirilir.",
         detail: "Flutter · Swift · BLoC · App Store & Play Store yayınlama",
       },
       {
         title: "Web Uygulama Geliştirme",
         description:
-          "Next.js ve React ile hızlı, modern web uygulamaları ve tanıtım siteleri — açılış sayfalarından tam kapsamlı ürün panellerine kadar.",
+          "Next.js ve React ile hızlı, modern web uygulamaları ve tanıtım siteleri: açılış sayfalarından tam kapsamlı ürün panellerine kadar.",
         detail: "Next.js · React · TypeScript · Performans odaklı geliştirme",
       },
       {
         title: "Ürün / MVP Geliştirme",
         description:
-          "Kurucular için 0'dan 1'e geliştirme — bir konsepti mobil ve webde çalışan, yayınlanabilir bir ürüne dönüştürüyorum.",
+          "Kurucular için 0'dan 1'e geliştirme: bir konsepti mobil ve webde çalışan, yayınlanabilir bir ürüne dönüştürüyorum.",
         detail: "Kapsam belirleme · hızlı prototipleme · aylar değil haftalar içinde lansmana hazır",
       },
       {
         title: "Teknik Mimari & Danışmanlık",
         description:
-          "İlk günden itibaren temiz, sürdürülebilir mimari — Clean Architecture, BLoC ve ölçeklenebilir proje yapısı.",
+          "İlk günden itibaren temiz, sürdürülebilir mimari: Clean Architecture, BLoC ve ölçeklenebilir proje yapısı.",
         detail: "Kod incelemesi · sistem tasarımı · ölçeklenebilir proje yapısı",
       },
     ],
@@ -117,7 +117,7 @@ const dictionary: Dictionary = {
       {
         name: "TourSync",
         description:
-          "Sanatçılar, DJ'ler ve müzisyenler için yapay zeka destekli tur yönetim platformu — mobil, web ve açılış sayfası, uçtan uca geliştirildi.",
+          "Sanatçılar, DJ'ler ve müzisyenler için yapay zeka destekli tur yönetim platformu: mobil, web ve açılış sayfası, uçtan uca geliştirildi.",
       },
       {
         name: "Fuxi",
@@ -149,7 +149,7 @@ const dictionary: Dictionary = {
     eyebrow: "İletişim",
     title: "Birlikte bir şeyler inşa edelim.",
     subtitle:
-      "Aklınızda bir proje mi var, yoksa sadece sohbet mi etmek istiyorsunuz? Şu anda freelance işlere açığım — bir mesaj gönderin ya da doğrudan ulaşın.",
+      "Aklınızda bir proje mi var, yoksa sadece sohbet mi etmek istiyorsunuz? Şu anda freelance işlere açığım, bir mesaj gönderin ya da doğrudan ulaşın.",
     form: {
       nameLabel: "Ad",
       namePlaceholder: "Adınız",
@@ -159,11 +159,11 @@ const dictionary: Dictionary = {
       messagePlaceholder: "Projenizden bahsedin...",
       submit: "Mesaj gönder",
       sending: "Gönderiliyor…",
-      defaultSuccess: "Teşekkürler — en kısa sürede size döneceğim.",
+      defaultSuccess: "Teşekkürler! En kısa sürede size döneceğim.",
     },
   },
   footer: {
-    tagline: "Kıdemli Full-Stack Geliştirici — Flutter, Next.js/React & Swift/iOS.",
+    tagline: "Kıdemli Full-Stack Geliştirici, Flutter, Next.js/React & Swift/iOS.",
     rightsReserved: "Tüm hakları saklıdır.",
   },
 };

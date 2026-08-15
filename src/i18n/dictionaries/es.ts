@@ -17,7 +17,7 @@ const dictionary: Dictionary = {
     headingWords: ["Hola", "👋,", "soy", "Atakan."],
     role: "Desarrollador Full-Stack Senior",
     description:
-      "7 años de experiencia creando productos móviles y web de principio a fin. Como freelancer con Andora Apps, ayudo a startups a lanzar apps y plataformas pulidas, desde la idea hasta producción.",
+      "7 años de experiencia creando productos móviles y web de principio a fin. En Andora Apps, ayudo a startups a lanzar apps y plataformas pulidas, desde la idea hasta producción.",
     viewWork: "Ver trabajo",
     getInTouch: "Contactar",
     tags: "Flutter · Next.js · React · Swift · TypeScript",
@@ -25,13 +25,13 @@ const dictionary: Dictionary = {
   },
   about: {
     eyebrow: "Acerca de",
-    title: "Construyendo para el mundo.",
+    title: "De la idea a la producción.",
     lede: {
       before:
-        "Desarrollador full-stack senior con 7 años de experiencia convirtiendo ideas en productos lanzados — Flutter para móvil, Next.js/React para web, e iOS nativo con Swift. Hoy trabajo como freelancer con ",
+        "Desarrollador full-stack senior con 7 años de experiencia convirtiendo ideas en productos lanzados: Flutter para móvil, Next.js/React para web, e iOS nativo con Swift. Hoy construyo en ",
       strong: "Andora Apps",
       after:
-        "; antes, fundé y lideré ingeniería en varias startups, incluyendo Fuxi y Getarf Logistic (adquirida por Lojimod).",
+        ". Antes, fundé y lideré ingeniería en varias startups, incluyendo Fuxi y Getarf Logistic (adquirida por Lojimod).",
     },
     stats: [
       { value: "7+", label: "Años de experiencia" },
@@ -42,10 +42,10 @@ const dictionary: Dictionary = {
     timeline: [
       {
         period: "Ahora",
-        role: "Desarrollador Freelance",
+        role: "Desarrollador",
         org: "Andora Apps",
         detail:
-          "Entrego soluciones móviles y web completas para startups — desde la arquitectura hasta el lanzamiento.",
+          "Entrego soluciones móviles y web completas para startups, desde la arquitectura hasta el lanzamiento.",
       },
       {
         period: "Antes",
@@ -81,30 +81,30 @@ const dictionary: Dictionary = {
     eyebrow: "Servicios",
     title: "Qué puedo construir para ti",
     subtitle:
-      "Desarrollo de producto de principio a fin — me encargo de todo, desde la arquitectura hasta el lanzamiento, o me integro a un equipo existente.",
+      "Desarrollo de producto de principio a fin: me encargo de todo, desde la arquitectura hasta el lanzamiento, o me integro a un equipo existente.",
     items: [
       {
         title: "Desarrollo de apps móviles",
         description:
-          "Apps multiplataforma con Flutter y apps nativas de iOS con Swift — listas para producción, listas para la App Store, construidas para escalar.",
+          "Apps multiplataforma con Flutter y apps nativas de iOS con Swift: listas para producción, listas para la App Store, construidas para escalar.",
         detail: "Flutter · Swift · BLoC · Entrega en App Store y Play Store",
       },
       {
         title: "Desarrollo de aplicaciones web",
         description:
-          "Apps web rápidas y modernas y sitios de marketing con Next.js y React — desde landing pages hasta dashboards completos.",
+          "Apps web rápidas y modernas y sitios de marketing con Next.js y React: desde landing pages hasta dashboards completos.",
         detail: "Next.js · React · TypeScript · Builds orientados al rendimiento",
       },
       {
         title: "Desarrollo de producto / MVP",
         description:
-          "Construcciones de 0 a 1 para fundadores — convirtiendo un concepto en un producto funcional y lanzable en móvil y web.",
+          "Construcciones de 0 a 1 para fundadores: convirtiendo un concepto en un producto funcional y lanzable en móvil y web.",
         detail: "Definición de alcance · prototipado rápido · listo para lanzar en semanas, no meses",
       },
       {
         title: "Arquitectura técnica y consultoría",
         description:
-          "Arquitectura limpia y mantenible desde el primer día — Clean Architecture, BLoC y estructura de proyecto escalable.",
+          "Arquitectura limpia y mantenible desde el primer día: Clean Architecture, BLoC y estructura de proyecto escalable.",
         detail: "Revisión de código · diseño de sistemas · estructura de proyecto escalable",
       },
     ],
@@ -117,7 +117,7 @@ const dictionary: Dictionary = {
       {
         name: "TourSync",
         description:
-          "Plataforma de gestión de giras impulsada por IA para artistas, DJs y músicos — móvil, web y landing page, construida de principio a fin.",
+          "Plataforma de gestión de giras impulsada por IA para artistas, DJs y músicos: móvil, web y landing page, construida de principio a fin.",
       },
       {
         name: "Fuxi",
@@ -149,7 +149,7 @@ const dictionary: Dictionary = {
     eyebrow: "Contacto",
     title: "Construyamos algo.",
     subtitle:
-      "¿Tienes un proyecto en mente, o solo quieres charlar? Actualmente estoy disponible para trabajo freelance — envíame un mensaje o contáctame directamente.",
+      "¿Tienes un proyecto en mente, o solo quieres charlar? Actualmente estoy disponible para trabajo freelance, envíame un mensaje o contáctame directamente.",
     form: {
       nameLabel: "Nombre",
       namePlaceholder: "Tu nombre",
@@ -159,11 +159,11 @@ const dictionary: Dictionary = {
       messagePlaceholder: "Cuéntame sobre tu proyecto...",
       submit: "Enviar mensaje",
       sending: "Enviando…",
-      defaultSuccess: "Gracias — te responderé pronto.",
+      defaultSuccess: "¡Gracias! Te responderé pronto.",
     },
   },
   footer: {
-    tagline: "Desarrollador Full-Stack Senior — Flutter, Next.js/React y Swift/iOS.",
+    tagline: "Desarrollador Full-Stack Senior, Flutter, Next.js/React y Swift/iOS.",
     rightsReserved: "Todos los derechos reservados.",
   },
 };
